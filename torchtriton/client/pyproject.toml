@@ -1,0 +1,10 @@
+[project]
+name = "pytorch_demo"
+version = "0.1.0"
+dependencies = [
+    "torchtriton"
+]
+
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
